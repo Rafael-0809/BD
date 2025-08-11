@@ -92,4 +92,14 @@ insert into variacoes_produto values
 ('13', '104', 'M', 'Preto', '20'),
 ('14', '104', 'XG', 'Preto', '15');
 
-select * from variacoes_produto;
+insert into pedidos values
+('1001', '1', '2024-06-20', 'Enviado', '179.80'),
+('1002', '3', '2024-06-21', 'Em processamento', '49.90'),
+('1003', '5', '2024-06-28', 'Entregue', '399.80'),
+('1004', '2', '2024-07-01', 'Enviado', '129.90'),
+('1005', '1', '2024-07-05', 'Entregue', '379.80'),
+('1006', '12', '2024-07-18', 'Em processamento', '159.90'),
+('1007', '16', '2024-07-29', 'Entregue', '219.90'),
+('1008', '9', '2024-08-02', 'Enviado', '129.90'),
+('1009', '10', '2024-08-08', 'Em processamento', '49.90');
+select * from pedidos;
