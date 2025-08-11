@@ -76,4 +76,20 @@ insert into produtos values
 ('103', 'Moletom Canguru', 'Moletom com capuz e bolso frontal', '159.90'),
 ('104', 'Tênis Casual', 'Tênis confortável para o dia a dia', '219.90');
 
-select * from produtos
+insert into variacoes_produto values
+('1', '101', 'P', 'Preto', '20'),
+('2', '101', 'M', 'Preto', '50'),
+('3', '101', 'G', 'Preto', '30'),
+('4', '101', 'XG', 'Branco', '25'),
+('5', '102', 'P', 'Azul', '15'),
+('6', '102', 'M', 'Azul', '10'),
+('7', '102', 'G', 'Azul', '20'),
+('8', '103', 'P', 'Cinza', '22'),
+('9', '103', 'M', 'Cinza', '18'),
+('10', '103', 'G', 'Cinza', '12'),
+('11', '104', 'G', 'Preto', '30'),
+('12', '104', 'P', 'Branco', '25'),
+('13', '104', 'M', 'Preto', '20'),
+('14', '104', 'XG', 'Preto', '15');
+
+select * from variacoes_produto;
